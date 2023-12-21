@@ -1,3 +1,3 @@
 #!/bin/sh
 
-exec pipx run --spec git+https://github.com/pomdtr/sunbeam-libraries.git sunbeam-libraries "$@"
+exec pipx run --spec git+https://github.com/pomdtr/sunbeam-libraries.git libraries "$@"

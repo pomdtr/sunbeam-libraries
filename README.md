@@ -18,6 +18,8 @@ Get your token from <https://libraries.io>
 ## Development
 
 ```sh
-pipx install -e .
-sunbeam extension install ~/.local/bin/sunbeam-libraries --alias libraries
+python -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -e .
+sunbeam extension install ./.venv/bin/libraries
 ```
