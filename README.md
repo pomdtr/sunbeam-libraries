@@ -8,7 +8,7 @@ sunbeam extension install https://raw.githubusercontent.com/pomdtr/sunbeam-libra
 
 ## Setup
 
-Get your token from <https://librairies.io>
+Get your token from <https://libraries.io>
 
 ## Development
 
