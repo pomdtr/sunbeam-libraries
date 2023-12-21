@@ -1,0 +1,7 @@
+[project]
+name = "sunbeam-extension"
+version = "0.1.0"
+dependencies = ["sunbeam", "requests"]
+
+[project.scripts]
+sunbeam-libraries = "extension:main"
