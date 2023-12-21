@@ -20,6 +20,6 @@ Get your token from <https://libraries.io>
 ```sh
 python -m venv .venv
 source .venv/bin/activate
-python3 -m pip install -e .
+python3 -m pip install -e .[dev]
 sunbeam extension install ./.venv/bin/libraries
 ```
