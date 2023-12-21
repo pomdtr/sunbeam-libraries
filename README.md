@@ -1,5 +1,10 @@
 # Libraries.io
 
+## Dependencies
+
+- [python3](https://www.python.org/)
+- [pipx](https://pipx.pypa.io/stable/)
+
 ## Installation
 
 ```bash
