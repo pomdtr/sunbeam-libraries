@@ -15,7 +15,7 @@ manifest: sunbeam.Manifest = {
             "name": "search",
             "title": "Search for a package",
             "mode": "search",
-            "params": [{"name": "platform", "label": "Platform", "type": "text"}],
+            "params": [{"name": "platform", "label": "Platform", "type": "text", "optional": True}],
         },
     ],
 }
@@ -70,7 +70,7 @@ def main():
             "https://libraries.io/api/search",
             params={
                 "api_key": prefs["api_key"],
-                "platforms": params["platform"],
+                "platforms": params.get("platform"),
                 "q": payload.get("query"),
             },
         ).json()
